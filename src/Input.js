@@ -15,6 +15,7 @@ onSubmit(e) {
     this.setState({text: ""});
     this.props.onSendMessage(this.state.text);
   }
+   
 
 render() {
     return (
